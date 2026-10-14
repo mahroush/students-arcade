@@ -3,6 +3,7 @@ import random
 AUTHOR = "Mahroush"
 APP_NAME = "Random Shape"
 
+
 def run():
     shapes = {
         "Triangle": 3,
@@ -16,4 +17,4 @@ def run():
     shape = random.choice(list(shapes.keys()))
     sides = shapes[shape]
 
-    return f"{APP_NAME}: {shape} has {sides} sides."s
+    return f"{APP_NAME}: {shape} has {sides} sides."
